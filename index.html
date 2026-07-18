@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & Performance -->
+    <title>Nexus Business Solutions | Digital Transformation Agency</title>
+    <meta name="description" content="Nexus Business Solutions helps businesses grow through innovative digital solutions, strategic marketing, web development, mobile apps, and cutting-edge technology. Award-winning agency with 500+ projects completed.">
+    <meta name="keywords" content="digital solutions, web development, mobile apps, digital marketing, UI UX design, cloud solutions, cybersecurity, business growth">
+    <meta name="author" content="Nexus Business Solutions">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1a1a2e">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nexus.com">
+    <meta property="og:title" content="Nexus Business Solutions | Digital Transformation Agency">
+    <meta property="og:description" content="Transform your business with innovative digital solutions. 500+ projects, 98% client satisfaction.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&h=630&fit=crop">
+    <meta property="og:site_name" content="Nexus Business Solutions">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nexus Business Solutions | Digital Transformation Agency">
+    <meta name="twitter:description" content="Transform your business with innovative digital solutions.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&h=630&fit=crop">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔷</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔷</text></svg>">
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://images.unsplash.com">
+
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen" role="status" aria-label="Loading page">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="bi bi-hexagon-fill"></i>
+            </div>
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Loading Nexus...</p>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress" role="progressbar" aria-label="Scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Dark/Light Mode Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+        <i class="bi bi-sun-fill" id="theme-icon"></i>
+    </button>
+
+    <!-- Skip to Content (Accessibility) -->
+    <a href="#home" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#home" aria-label="Nexus Business Solutions Home">
+                <i class="bi bi-hexagon-fill me-2" aria-hidden="true"></i>NEXUS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary ms-lg-3 get-started-btn">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" role="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <div class="fade-in-up">
+                        <span class="badge bg-primary mb-3" style="font-size: 0.9rem; padding: 0.5rem 1rem;">
+                            <i class="bi bi-stars me-1" aria-hidden="true"></i> Award Winning Agency
+                        </span>
+                        <h1 class="hero-title">Transform Your Business With Digital Excellence</h1>
+                        <p class="hero-subtitle">We help businesses grow through innovative digital solutions, strategic marketing, and cutting-edge technology.</p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="#services" class="btn hero-btn hero-btn-primary">Explore Services</a>
+                            <a href="#contact" class="btn hero-btn hero-btn-outline">Contact Us</a>
+                        </div>
+                        <div class="mt-5 d-flex gap-4">
+                            <div><h2 class="text-white mb-0 fs-4">500+</h2><small class="text-white-50">Projects Done</small></div>
+                            <div class="border-start border-white-50 ps-4"><h2 class="text-white mb-0 fs-4">98%</h2><small class="text-white-50">Client Satisfaction</small></div>
+                            <div class="border-start border-white-50 ps-4"><h2 class="text-white mb-0 fs-4">50+</h2><small class="text-white-50">Team Experts</small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-image position-relative">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=500&fit=crop" 
+                             alt="Professional business team collaborating in a modern office environment" 
+                             class="img-fluid rounded-4 shadow-lg" 
+                             loading="lazy"
+                             style="border: 2px solid rgba(255,255,255,0.1);">
+                        <div class="floating-card floating-card-1">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-graph-up-arrow text-success fs-4" aria-hidden="true"></i>
+                                <div><div class="fw-bold text-white">+127%</div><small class="text-white-50">Growth Rate</small></div>
+                            </div>
+                        </div>
+                        <div class="floating-card floating-card-2">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-people-fill text-info fs-4" aria-hidden="true"></i>
+                                <div><div class="fw-bold text-white">2.5K+</div><small class="text-white-50">Active Users</small></div>
+                            </div>
+                        </div>
+                        <div class="floating-card floating-card-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-shield-check text-warning fs-4" aria-hidden="true"></i>
+                                <div><div class="fw-bold text-white">100%</div><small class="text-white-50">Secure</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding" role="region" aria-labelledby="services-heading">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary mb-3" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Our Services</span>
+                <h2 id="services-heading" class="section-title fade-in-up">What We Offer</h2>
+                <p class="section-subtitle fade-in-up">Comprehensive digital solutions tailored to elevate your business to new heights</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 fade-in-up delay-1">
+                    <div class="service-card">
+                        <div class="service-icon service-icon-1" aria-hidden="true"><i class="bi bi-laptop"></i></div>
+                        <h3 class="h4 mb-3">Web Development</h3>
+                        <p class="text-muted">Custom web applications built with modern technologies to deliver exceptional user experiences and drive conversions.</p>
+                        <a href="#contact" class="btn btn-link text-primary text-decoration-none p-0">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in-up delay-2">
+                    <div class="service-card">
+                        <div class="service-icon service-icon-2" aria-hidden="true"><i class="bi bi-phone"></i></div>
+                        <h3 class="h4 mb-3">Mobile Apps</h3>
+                        <p class="text-muted">Native and cross-platform mobile applications designed for iOS and Android with intuitive interfaces.</p>
+                        <a href="#contact" class="btn btn-link text-primary text-decoration-none p-0">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in-up delay-3">
+                    <div class="service-card">
+                        <div class="service-icon service-icon-3" aria-hidden="true"><i class="bi bi-graph-up"></i></div>
+                        <h3 class="h4 mb-3">Digital Marketing</h3>
+                        <p class="text-muted">Data-driven marketing strategies including SEO, PPC, social media, and content marketing to grow your reach.</p>
+                        <a href="#contact" class="btn btn-link text-primary text-decoration-none p-0">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in-up delay-1">
+                    <div class="service-card">
+                        <div class="service-icon service-icon-4" aria-hidden="true"><i class="bi bi-palette"></i></div>
+                        <h3 class="h4 mb-3">UI/UX Design</h3>
+                        <p class="text-muted">User-centered design solutions that combine aesthetics with functionality to create memorable experiences.</p>
+                        <a href="#contact" class="btn btn-link text-primary text-decoration-none p-0">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in-up delay-2">
+                    <div class="service-card">
+                        <div class="service-icon service-icon-5" aria-hidden="true"><i class="bi bi-cloud"></i></div>
+                        <h3 class="h4 mb-3">Cloud Solutions</h3>
+                        <p class="text-muted">Scalable cloud infrastructure and migration services to optimize performance and reduce costs.</p>
+                        <a href="#contact" class="btn btn-link text-primary text-decoration-none p-0">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in-up delay-3">
+                    <div class="service-card">
+                        <div class="service-icon service-icon-6" aria-hidden="true"><i class="bi bi-shield-check"></i></div>
+                        <h3 class="h4 mb-3">Cyber Security</h3>
+                        <p class="text-muted">Enterprise-grade security solutions to protect your digital assets and ensure compliance.</p>
+                        <a href="#contact" class="btn btn-link text-primary text-decoration-none p-0">Learn More <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding about-section" role="region" aria-labelledby="about-heading">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0 fade-in-up">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop" 
+                             alt="Diverse creative team collaborating around a desk with laptops and design materials" 
+                             class="img-fluid"
+                             loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5 fade-in-up delay-2">
+                    <span class="badge bg-primary mb-3" style="font-size: 1rem; padding: 0.6rem 1.2rem;">About Us</span>
+                    <h2 id="about-heading" class="section-title">We Build Digital Experiences That Matter</h2>
+                    <p class="text-muted mb-4">With over a decade of experience, we've helped hundreds of businesses transform their digital presence and achieve remarkable growth.</p>
+                    <div class="about-feature">
+                        <div class="about-feature-icon" aria-hidden="true"><i class="bi bi-bullseye"></i></div>
+                        <div><h3 class="h5 mb-1">Mission-Driven Approach</h3><p class="text-muted mb-0">Every project starts with understanding your goals and ends with exceeding expectations.</p></div>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon" aria-hidden="true"><i class="bi bi-lightning"></i></div>
+                        <div><h3 class="h5 mb-1">Agile Methodology</h3><p class="text-muted mb-0">Fast iterations and continuous feedback ensure we deliver exactly what you need.</p></div>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon" aria-hidden="true"><i class="bi bi-heart"></i></div>
+                        <div><h3 class="h5 mb-1">Client-Centric Focus</h3><p class="text-muted mb-0">Your success is our success. We're committed to building long-term partnerships.</p></div>
+                    </div>
+                    <a href="#contact" class="btn hero-btn-primary mt-3">Work With Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section-padding stats-section" role="region" aria-label="Company statistics">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-lg-3 fade-in-up">
+                    <div class="stat-item"><div class="stat-number">500+</div><div class="stat-label">Projects Completed</div></div>
+                </div>
+                <div class="col-6 col-lg-3 fade-in-up delay-1">
+                    <div class="stat-item"><div class="stat-number">250+</div><div class="stat-label">Happy Clients</div></div>
+                </div>
+                <div class="col-6 col-lg-3 fade-in-up delay-2">
+                    <div class="stat-item"><div class="stat-number">50+</div><div class="stat-label">Team Members</div></div>
+                </div>
+                <div class="col-6 col-lg-3 fade-in-up delay-3">
+                    <div class="stat-item"><div class="stat-number">12+</div><div class="stat-label">Years Experience</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding" role="region" aria-labelledby="testimonials-heading">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary mb-3" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Testimonials</span>
+                <h2 id="testimonials-heading" class="section-title fade-in-up">What Our Clients Say</h2>
+                <p class="section-subtitle fade-in-up">Don't just take our word for it - hear from the businesses we've helped grow</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 fade-in-up delay-1">
+                    <div class="testimonial-card">
+                        <div class="stars" aria-label="5 star rating"><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i></div>
+                        <p class="testimonial-text">"Nexus transformed our online presence completely. Our website traffic increased by 300% and conversions doubled within 3 months. Absolutely incredible results!"</p>
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" 
+                             alt="Portrait of Sarah Johnson, CEO of TechStart Inc." 
+                             class="testimonial-img"
+                             loading="lazy">
+                        <div class="testimonial-author">Sarah Johnson</div>
+                        <div class="testimonial-role">CEO, TechStart Inc.</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in-up delay-2">
+                    <div class="testimonial-card">
+                        <div class="stars" aria-label="5 star rating"><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i></div>
+                        <p class="testimonial-text">"The team's expertise in mobile development is unmatched. They delivered our app on time and the user engagement has been phenomenal. Highly recommended!"</p>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" 
+                             alt="Portrait of Michael Chen, Founder of AppVenture" 
+                             class="testimonial-img"
+                             loading="lazy">
+                        <div class="testimonial-author">Michael Chen</div>
+                        <div class="testimonial-role">Founder, AppVenture</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in-up delay-3">
+                    <div class="testimonial-card">
+                        <div class="stars" aria-label="4.5 star rating"><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-fill" aria-hidden="true"></i><i class="bi bi-star-half" aria-hidden="true"></i></div>
+                        <p class="testimonial-text">"Working with Nexus was a game-changer for our marketing strategy. Their data-driven approach helped us achieve ROI we never thought possible."</p>
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" 
+                             alt="Portrait of Emily Davis, Marketing Director at GrowthCo" 
+                             class="testimonial-img"
+                             loading="lazy">
+                        <div class="testimonial-author">Emily Davis</div>
+                        <div class="testimonial-role">Marketing Director, GrowthCo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section-padding" role="region" aria-labelledby="pricing-heading">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary mb-3" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Pricing</span>
+                <h2 id="pricing-heading" class="section-title fade-in-up">Choose Your Plan</h2>
+                <p class="section-subtitle fade-in-up">Flexible pricing options designed to fit businesses of all sizes</p>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-md-4 fade-in-up delay-1">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="h4 mb-0">Starter</h3>
+                            <div class="pricing-price">$29<span>/month</span></div>
+                            <p class="text-muted mb-0">Perfect for small businesses</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> 5 Projects</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Basic Analytics</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Email Support</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> 10GB Storage</div>
+                            <div class="pricing-feature disabled"><i class="bi bi-x-circle-fill" aria-hidden="true"></i> Custom Domain</div>
+                            <div class="pricing-feature disabled"><i class="bi bi-x-circle-fill" aria-hidden="true"></i> Priority Support</div>
+                            <button class="btn btn-outline-primary pricing-btn">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in-up delay-2">
+                    <div class="pricing-card featured">
+                        <div class="badge-popular">POPULAR</div>
+                        <div class="pricing-header featured">
+                            <h3 class="h4 mb-0">Professional</h3>
+                            <div class="pricing-price">$79<span>/month</span></div>
+                            <p class="mb-0" style="opacity: 0.8;">Best for growing businesses</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Unlimited Projects</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Advanced Analytics</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> 24/7 Support</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> 100GB Storage</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Custom Domain</div>
+                            <div class="pricing-feature disabled"><i class="bi bi-x-circle-fill" aria-hidden="true"></i> Dedicated Manager</div>
+                            <button class="btn btn-primary pricing-btn">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in-up delay-3">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="h4 mb-0">Enterprise</h3>
+                            <div class="pricing-price">$199<span>/month</span></div>
+                            <p class="text-muted mb-0">For large organizations</p>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Unlimited Projects</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Custom Analytics</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Priority Support</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Unlimited Storage</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Custom Domain</div>
+                            <div class="pricing-feature"><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Dedicated Manager</div>
+                            <button class="btn btn-outline-primary pricing-btn">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding faq-section" role="region" aria-labelledby="faq-heading">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary mb-3" style="font-size: 1rem; padding: 0.6rem 1.2rem;">FAQ</span>
+                <h2 id="faq-heading" class="section-title fade-in-up">Frequently Asked Questions</h2>
+                <p class="section-subtitle fade-in-up">Find answers to common questions about our services</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item fade-in-up delay-1">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                    <i class="bi bi-question-circle-fill me-2" aria-hidden="true"></i> What services does Nexus offer?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">We offer a comprehensive suite of digital services including web development, mobile app development, UI/UX design, digital marketing, cloud solutions, and cybersecurity services. Each service is tailored to meet your specific business needs.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item fade-in-up delay-2">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    <i class="bi bi-question-circle-fill me-2" aria-hidden="true"></i> How long does a typical project take?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Project timelines vary based on complexity and scope. A simple website might take 2-4 weeks, while a complex web application could take 3-6 months. We provide detailed timelines during our initial consultation and keep you updated throughout the process.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item fade-in-up delay-3">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    <i class="bi bi-question-circle-fill me-2" aria-hidden="true"></i> Do you provide ongoing support?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Yes! We offer comprehensive maintenance and support packages. This includes regular updates, security patches, performance monitoring, and technical support. We believe in building long-term relationships with our clients.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item fade-in-up delay-1">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    <i class="bi bi-question-circle-fill me-2" aria-hidden="true"></i> What is your pricing structure?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">We offer flexible pricing options including project-based pricing, hourly rates, and retainer packages. We provide detailed quotes after understanding your requirements. Our pricing is transparent with no hidden costs.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item fade-in-up delay-2">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    <i class="bi bi-question-circle-fill me-2" aria-hidden="true"></i> Can you work with existing systems?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Absolutely. We have extensive experience integrating with existing systems and legacy applications. Whether you need API development, database migration, or system integration, our team can handle it seamlessly.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding contact-section" role="region" aria-labelledby="contact-heading">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary mb-3" style="font-size: 1rem; padding: 0.6rem 1.2rem;">Contact Us</span>
+                <h2 id="contact-heading" class="section-title fade-in-up">Get In Touch</h2>
+                <p class="section-subtitle fade-in-up">Ready to start your next project? We'd love to hear from you</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-5 fade-in-up delay-1">
+                    <div class="contact-info-card">
+                        <h3 class="mb-4">Contact Information</h3>
+                        <p class="text-white-50 mb-4">Fill out the form and our team will get back to you within 24 hours.</p>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" aria-hidden="true"><i class="bi bi-geo-alt"></i></div>
+                            <div><h4 class="h5 mb-1">Address</h4><p class="text-white-50 mb-0">123 Business Ave, Suite 100<br>San Francisco, CA 94102</p></div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" aria-hidden="true"><i class="bi bi-envelope"></i></div>
+                            <div><h4 class="h5 mb-1">Email</h4><p class="text-white-50 mb-0">hello@nexus.com<br>support@nexus.com</p></div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" aria-hidden="true"><i class="bi bi-telephone"></i></div>
+                            <div><h4 class="h5 mb-1">Phone</h4><p class="text-white-50 mb-0">+1 (555) 123-4567<br>+1 (555) 987-6543</p></div>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="h5 mb-3">Follow Us</h4>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-outline-light rounded-circle" style="width: 45px; height: 45px;" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+                                <a href="#" class="btn btn-outline-light rounded-circle" style="width: 45px; height: 45px;" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>
+                                <a href="#" class="btn btn-outline-light rounded-circle" style="width: 45px; height: 45px;" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                                <a href="#" class="btn btn-outline-light rounded-circle" style="width: 45px; height: 45px;" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 fade-in-up delay-2">
+                    <div class="contact-form-card">
+                        <h3 class="mb-4">Send a Message</h3>
+                        <form id="contactForm" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label fw-semibold">First Name</label>
+                                    <input type="text" id="firstName" class="form-control" placeholder="John" required aria-required="true">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label fw-semibold">Last Name</label>
+                                    <input type="text" id="lastName" class="form-control" placeholder="Doe" required aria-required="true">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-semibold">Email</label>
+                                    <input type="email" id="email" class="form-control" placeholder="john@example.com" required aria-required="true">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label fw-semibold">Phone</label>
+                                    <input type="tel" id="phone" class="form-control" placeholder="+1 (555) 000-0000">
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label fw-semibold">Subject</label>
+                                    <select id="subject" class="form-select">
+                                        <option selected>Select a service</option>
+                                        <option>Web Development</option>
+                                        <option>Mobile App</option>
+                                        <option>Digital Marketing</option>
+                                        <option>UI/UX Design</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label fw-semibold">Message</label>
+                                    <textarea id="message" class="form-control" rows="4" placeholder="Tell us about your project..."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="contact-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <span class="footer-brand"><i class="bi bi-hexagon-fill me-2" aria-hidden="true"></i>NEXUS</span>
+                    <p class="footer-text">Transforming businesses through innovative digital solutions. We help you grow, scale, and succeed in the digital age.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h3 class="footer-title h5">Quick Links</h3>
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#pricing" class="footer-link">Pricing</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h3 class="footer-title h5">Services</h3>
+                    <a href="#services" class="footer-link">Web Development</a>
+                    <a href="#services" class="footer-link">Mobile Apps</a>
+                    <a href="#services" class="footer-link">UI/UX Design</a>
+                    <a href="#services" class="footer-link">Marketing</a>
+                    <a href="#services" class="footer-link">Cloud</a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3 class="footer-title h5">Newsletter</h3>
+                    <p class="footer-text">Subscribe to our newsletter for the latest updates and insights.</p>
+                    <form class="d-flex gap-2" id="newsletterForm">
+                        <input type="email" class="form-control" placeholder="Enter your email" style="background: rgba(255,255,255,0.1); border: none; color: white;" required aria-label="Email for newsletter subscription">
+                        <button class="btn btn-primary" type="submit" aria-label="Subscribe to newsletter"><i class="bi bi-send" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2026 Nexus Business Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Inline JavaScript (No separate file needed) -->
+    <script>
+    (function() {
+        'use strict';
+
+        // ===== LOADING SCREEN =====
+        window.addEventListener('load', function() {
+            const loader = document.getElementById('loading-screen');
+            if (loader) {
+                loader.style.opacity = '0';
+                loader.style.visibility = 'hidden';
+                setTimeout(function() {
+                    loader.style.display = 'none';
+                }, 500);
+            }
+        });
+
+        // ===== SCROLL PROGRESS BAR =====
+        const scrollProgress = document.getElementById('scroll-progress');
+        window.addEventListener('scroll', function() {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const progress = (scrollTop / scrollHeight) * 100;
+            if (scrollProgress) {
+                scrollProgress.style.width = progress + '%';
+                scrollProgress.setAttribute('aria-valuenow', Math.round(progress));
+            }
+        });
+
+        // ===== BACK TO TOP BUTTON =====
+        const backToTop = document.getElementById('back-to-top');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        if (backToTop) {
+            backToTop.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // ===== NAVBAR SCROLL EFFECT =====
+        const navbar = document.querySelector('.navbar');
+        const navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+                if (navbarTogglerIcon) navbarTogglerIcon.style.filter = 'none';
+            } else {
+                navbar.classList.remove('scrolled');
+                if (navbarTogglerIcon) navbarTogglerIcon.style.filter = 'invert(1)';
+            }
+        });
+
+        // ===== SMOOTH SCROLL =====
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // ===== FADE-IN ANIMATIONS =====
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.fade-in-up').forEach(function(el) {
+            observer.observe(el);
+        });
+
+        // ===== DARK/LIGHT MODE TOGGLE =====
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('nexus-theme');
+        if (savedTheme === 'light') {
+            html.classList.add('light-mode');
+            themeIcon.classList.remove('bi-sun-fill');
+            themeIcon.classList.add('bi-moon-fill');
+        }
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', function() {
+                html.classList.toggle('light-mode');
+                const isLight = html.classList.contains('light-mode');
+
+                if (isLight) {
+                    themeIcon.classList.remove('bi-sun-fill');
+                    themeIcon.classList.add('bi-moon-fill');
+                    localStorage.setItem('nexus-theme', 'light');
+                } else {
+                    themeIcon.classList.remove('bi-moon-fill');
+                    themeIcon.classList.add('bi-sun-fill');
+                    localStorage.setItem('nexus-theme', 'dark');
+                }
+            });
+        }
+
+        // ===== FORM HANDLING =====
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                if (contactForm.checkValidity()) {
+                    alert('Thank you for your message! We will get back to you within 24 hours.');
+                    contactForm.reset();
+                } else {
+                    contactForm.reportValidity();
+                }
+            });
+        }
+
+        const newsletterForm = document.getElementById('newsletterForm');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for subscribing to our newsletter!');
+                newsletterForm.reset();
+            });
+        }
+
+    })();
+    </script>
+</body>
+</html>
