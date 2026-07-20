@@ -81,8 +81,7 @@ All images are sourced from [Unsplash](https://unsplash.com) and loaded via CDN:
 
 ### 1. Clone or Download
 ```bash
-git clone https://github.com/yourusername/nexus-business-landing-page.git
-cd nexus-business-landing-page
+git clone https://ubaidullahzafar789-cyber.github.io/nexus-business-landing-page/
 ```
 
 ### 2. Open in Browser
