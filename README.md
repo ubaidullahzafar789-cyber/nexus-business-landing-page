@@ -8,11 +8,7 @@ A fully responsive, modern, and feature-rich business landing page built with **
 
 ## ✨ Live Preview
 
-Open `index.html` in any modern web browser to see the landing page in action.
-
-> **Tip:** For the best experience, use a local server (like VS Code Live Server) to avoid CORS issues with external resources.
-
----
+https://ubaidullahzafar789-cyber.github.io/nexus-business-landing-page/
 
 ## 📁 Project Structure
 
