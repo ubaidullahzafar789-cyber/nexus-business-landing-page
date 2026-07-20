@@ -81,21 +81,15 @@ All images are sourced from [Unsplash](https://unsplash.com) and loaded via CDN:
 
 ### 1. Clone or Download
 ```bash
-git clone https://github.com/ubaidullahzafar789-cyber.github.io/nexus-business-landing-page/
+ https://ubaidullahzafar789-cyber.github.io/nexus-business-landing-page/
 ```
 
 ### 2. Open in Browser
-Simply double-click `index.html` or use a local server:
-```bash
-# Using Python
-python -m http.server 8000
+### 🌐 Live Website
 
-# Using Node.js (npx)
-npx serve .
+Visit the live website here:
 
-# Using VS Code Live Server extension
-# Right-click index.html → "Open with Live Server"
-```
+https://ubaidullahzafar789-cyber.github.io/nexus-business-landing-page/
 
 ### 3. Deploy to GitHub Pages
 1. Push this repository to GitHub
